@@ -1,0 +1,82 @@
+body{
+    font-family: 'Lato', sans-serif;
+    justify-content: center;    
+    background-image: linear-gradient(to right, rgb(19, 19, 118) , rgb(24, 124, 217));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }  
+
+ h1{
+    color: rgb(253, 220, 0);
+    font-weight: bolder;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px black;
+ }
+
+
+ .main{
+    display: flex;
+    justify-content: center;
+ }
+ .srh{
+    display: flex;
+    margin-top: 11px;
+ }
+ input{
+    width: 200px;
+    padding: 16px;
+    border-radius: 16px;
+    height: 8px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background-color: rgb(206, 236, 246);
+ }
+ button{
+    width: 70px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rgba(29, 172, 220, 0.517);
+    margin-top: 2px;
+    margin-inline: 9px;
+    border: 2px solid rgb(29, 172, 220);
+ }
+ button:hover{
+    border: 2px solid rgba(29, 172, 220, 0.517);
+    background-color: rgb(29, 172, 220);
+
+ }
+ ::placeholder{
+    color: black;
+ }
+ #city{
+    margin-top: 33px;
+    font-size: 33px;
+ }
+ #temp{
+    font-size: 40px;
+    margin-top: -13px;
+ }
+ #type{
+    font-size: 26px;
+    margin-top: -33px;
+ }
+ .container{
+    width: 300px;
+    padding: 22px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: #fff;
+    box-shadow: 0 0 23px -4px black;
+ }
+ img{
+    width: 210px;
+    margin-top: -22px;
+ }
